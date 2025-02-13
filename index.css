@@ -9,7 +9,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 #envelope {
@@ -180,6 +180,7 @@ body {
 
 .reset {
     text-align: center;
+    margin-top: 55px;
 }
 
 .reset button {
@@ -238,11 +239,13 @@ body {
 
 @media screen and (max-width: 480px) {
     #envelope {
-        transform: scale(0.8);
+        /* transform: scale(0.8); */
+        transform:scale(1.1);
+        
     }
 
     .envelope-wrapper {
-        height: 320px;
+        /* height: 320px; */
     }
 
     .valentine {
